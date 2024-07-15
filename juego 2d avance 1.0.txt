@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pac-Man</title>
+<style>
+/*Estilos básicos para el juego*/
+#juego{
+width:400px;
+height:20px;
+border: 1px solid black;
+background-clor:#f0f0f0;
+}
+    #pacman {
+      width: 20px;
+      height: 20px;
+      background-color: yellow;
+      position: absolute;
+    }
+    #fantasma {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      position: absolute;
+    }
+    #punto {
+      width: 10px;
+      height: 10px;
+      background-color: yellow;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="juego">
+    <div id="pacman"></div>
+    <div id="fantasma"></div>
+    <div id="punto"></div>
+  </div>
+  <script>
+    // JavaScript para controlar el movimiento de Pac-Man y los fantasmas
+    const pacman = document.getElementById("pacman");
+    const fantasma = document.getElementById("fantasma");
+    const punto = document.getElementById("punto");
+    // ...
+  </script>
+</body>
+</html>
